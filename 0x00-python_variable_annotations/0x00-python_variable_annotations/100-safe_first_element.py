@@ -12,16 +12,16 @@ from typing import Union, Any, Sequence
 
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
-  """
-  Returns the first element of the list if it exists, otherwise returns None.
+    """
+    Returns the first element of the list if it exists, otherwise returns None.
 
-  Args:
-      lst: A list of elements (type unknown).
+    Args:
+        lst: A list of elements (type unknown).
 
-  Returns:
-      The first element of the list or None if the list is empty.
-  """
-  if lst:
-    return lst[0]
-  else:
-    return None
+    Returns:
+        The first element of the list or None if the list is empty.
+    """
+    if lst:
+        return lst[0]
+    else:
+        return None
